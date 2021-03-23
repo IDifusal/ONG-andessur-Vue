@@ -47,7 +47,7 @@
     <v-navigation-drawer app v-model="drawer" absolute temporary dark>
       <div class="align-center mt-4">
         <v-avatar class="align-center">
-          <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="" />
+          <img src="" alt="" />
         </v-avatar>
         <p class="white--text mt-3 align-center  headline">ONG Andes Sur</p>
       </div>
