@@ -1,22 +1,18 @@
 <template>
   <div>
-    <v-carousel
-      cycle
-      height="700"
-      hide-delimiter-background
-      show-arrows-on-hover
-    >
+    <v-carousel cycle :height="$vuetify.breakpoint.xs ? 150 : '700px'" hide-delimiter-background>
       <v-carousel-item
         v-for="(item, i) in items"
         :key="i"
         :src="item.src"
+        active-class
         reverse-transition="fade-transition"
         transition-group="fade-transition"
       ></v-carousel-item>
     </v-carousel>
     <div>
       <h1 class="text-5xl py-3 text-center">BIEVENIDOS A ONG ANDES SUR</h1>
-      <h2 class="py-3 text-center">
+      <h2 class="py-3 px-3 text-center">
         ONG ANDES SUR trabaja constantemente en biodiversidad y ayuda solidaria
         a niños y jóvenes que necesiten <br />de nosotros. Además promovemos el
         intercambio horizontal de experiencias de la mano preservando el <br />
@@ -25,6 +21,7 @@
       </h2>
       <div class="my-6 text-center text-xs-center">
         <v-btn
+          to="/nosotros"
           class="text-white white–text brown lighten-5"
           color="secondary"
           elevation="2"
@@ -142,7 +139,33 @@ hr {
   margin: auto;
   width: 50%;
 }
+@media (max-width: 650px) {
+  .v-window,
+  v-image, v-window-item {
+    height: 150px ;
+  }
+  .v-image__image--cover {
+    background-size: contain !important;
+  }
+  .v-responsive__sizer {
+    padding-bottom: 0 !important;
+  }
+
+  .v-responsive__content {
+    height: 200px !important;
+  }
+  .v-icon {
+    display: none !important;
+  }
+  .v-image__image {
+    height: 150px !important;
+  }
+  .v-image v-responsive v-carousel__item theme--dark {
+    height: 150px !important;
+  }
+}
 </style>
+
 <script>
 export default {
   name: "Home",
@@ -150,16 +173,19 @@ export default {
     return {
       items: [
         {
-          src: "https://dc720.4shared.com/img/qFaCFeoGea/s23/1785c24d508/bg1.jpg"
+          src:
+            "https://dc720.4shared.com/img/qFaCFeoGea/s23/1785c24d508/bg1.jpg"
         },
         {
-          src: "https://dc706.4shared.com/img/q3AxDVSpiq/s23/1785c346180/bga2.jpg"
+          src:
+            "https://dc706.4shared.com/img/q3AxDVSpiq/s23/1785c346180/bga2.jpg"
         },
         {
           src: "https://cdn.vuetifyjs.com/images/carousel/bird.jpg"
         },
         {
-          src: "https://dc720.4shared.com/img/VOC4El1pea/s23/1785c24ec78/bg3.jpg"
+          src:
+            "https://dc720.4shared.com/img/VOC4El1pea/s23/1785c24ec78/bg3.jpg"
         }
       ],
       cards: [
@@ -180,6 +206,6 @@ export default {
         }
       ]
     };
-  }
+  },
 };
 </script>

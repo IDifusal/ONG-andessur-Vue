@@ -3,7 +3,7 @@
     <div class="nosotros ">
       <!-- main cover -->
       <div
-        class="w-full h-64 text-center pt-28 bg-cover bg-center "
+        class="w-full md:h-64 h-20 text-center pt-28 bg-cover bg-center "
         :style="{ 'background-image': 'url(/img/banner-conocenos.jpg)' }"
       >
         <h2 class="p-auto md:text-5xl text-white ">Nosotros</h2>
@@ -12,8 +12,8 @@
         <div class=" md:px-96 bg-green-50">
           <!-- 2 tarjetas -->
           <hr />
-          <div class=" container flex">
-            <div class="w-1/2 bg-green-300 text-center p-8 m-8 rounded-xl shadow-md">
+          <div class=" sm:flex-col p-3">
+            <div class="sm:w-full md:inline-block md:w-5/12 bg-green-300 text-center md:p-8 md:m-8 p-3 m-3 rounded-xl shadow-md">
               <h3 class="text-center">Mision</h3>
               <p class="text-justify">
                 Desarrollar competencias y apoyar el aprovechamiento de
@@ -21,22 +21,25 @@
                 trabajo conjunto con entidades públicas y privadas.
               </p>
             </div>
-            <div class="w-1/2 bg-green-300 p-8 m-8 rounded-xl shadow-md">
+            <div class="sm:w-full md:inline-block md:w-5/12 bg-green-300 text-center md:p-8 md:m-8 p-3 m-3 rounded-xl shadow-md">
               <h3 class="text-center">Vision</h3>
               <p class="text-justify">
                 Ser una organización referente en el campo del desarrollo
                 económico y social sostenible que aspira a una sociedad más
                 justa.
+                <br>
+                <br>
+                <br>
               </p>
             </div>
           </div>
-          <h1 class="md:text-5xl text-center font-extrabold">NUESTRO EQUIPO</h1>
+          <h1 class="text-5xl text-center font-extrabold">NUESTRO EQUIPO</h1>
           <h3 class="text-center">
             CONTAMOS CON UN STAFF DE PROFESIONALES <br />Y VOLUNTARIOS
             UNIVERSITARIOS DE PRIMER NIVEL
           </h3>
           <!-- tarjetas con profs -->
-          <div class="shadow-lg rounded-3xl m-5 md:flex md:flex-row-reverse bg-white">
+          <div class="shadow-lg rounded-3xl m-5 md:flex md:flex-row-reverse bg-white pt-2 ">
             <div>
               <div
                 class="w-40 h-40 bg-photo bg-cover bg-center bg-norepeat rounded-full m-auto md:m-8 md:m-0"
@@ -57,7 +60,7 @@
               </p>
             </div>
           </div>
-          <div class="shadow-lg rounded-3xl m-5 md:flex md:flex-row-reverse bg-white">
+          <div class="shadow-lg rounded-3xl m-5 md:flex md:flex-row-reverse bg-white pt-2">
             <div>
               <div
                 class="w-40 h-40 bg-photo bg-cover bg-center bg-norepeat rounded-full m-auto md:m-8 md:m-0"
@@ -80,7 +83,7 @@
               </p>
             </div>
           </div>
-          <div class="shadow-lg rounded-3xl m-5 md:flex md:flex-row-reverse bg-white">
+          <div class="shadow-lg rounded-3xl m-5 md:flex md:flex-row-reverse bg-white pt-2">
             <div>
               <div
                 class="w-40 h-40 bg-photo bg-cover bg-center bg-norepeat rounded-full m-auto md:m-8 md:m-0"
