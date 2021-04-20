@@ -26,66 +26,21 @@
               </v-expand-transition>
             </v-img>
             <v-card-text class="pt-6" style="position: relative;">
-              <p class="text-center font-bold"> {{card.title }}</p>
+              <p class="text-center font-bold">{{ card.title }}</p>
             </v-card-text>
           </v-card>
         </v-hover>
       </v-card>
     </div>
- 
-        <v-form v-model="valid">
-          <v-container class="md:flex md:p-8">
-                          <div class="w-1/2 h-20"></div>
-            <v-row class="bg-green-300 rounded-lg shadow-lg text-white">
-              <v-col cols="12" md="6">
-                <v-text-field
-                  v-model="firstname"
-                  :rules="nameRules"
-                  :counter="10"
-                  label="Tu nombre"
-                  color="white"
-                  required
-                ></v-text-field>
-              </v-col>
-
-              <v-col cols="12" md="6">
-                <v-text-field
-                  v-model="lastname"
-                  :rules="nameRules"
-                  :counter="10"
-                  label="Tus apellidos"
-                  required
-                ></v-text-field>
-              </v-col>
-
-              <v-col cols="12" md="6">
-                <v-text-field
-                  v-model="email"
-                  :rules="emailRules"
-                  label="Tu e-mail"
-                  required
-                ></v-text-field>
-              </v-col>
-              <v-col cols="12" md="3">
-                    <p>
-    <input
-      type="submit"
-      value="Enviar"
-    >
-  </p>
-
-              </v-col>
-            </v-row>
-
-          </v-container>
-        </v-form>
-
-
+    <contact-form/>
   </div>
 </template>
 <script>
+import ContactForm from "@/components/Form.vue";
+
 export default {
   name: "Servicios",
+  components:{ContactForm},
   data() {
     return {
       cards: [
@@ -110,18 +65,6 @@ export default {
           url:
             "https://static.wixstatic.com/media/15a549_cc6d3c98b2e0477cac5084a3771a060b~mv2.jpg/v1/fill/w_443,h_376,al_c,q_80,usm_0.66_1.00_0.01/15a549_cc6d3c98b2e0477cac5084a3771a060b~mv2.webp"
         }
-      ],
-      valid: false,
-      firstname: "",
-      lastname: "",
-      nameRules: [
-        v => !!v || "Nombre requerido",
-        v => v.length <= 10 || "Usa menos de 10 caracteres"
-      ],
-      email: "",
-      emailRules: [
-        v => !!v || "E-mail es requerido",
-        v => /.+@.+/.test(v) || "Debes insertar un E-mail válido "
       ]
     };
   }

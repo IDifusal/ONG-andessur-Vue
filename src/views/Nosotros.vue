@@ -12,8 +12,8 @@
         <div class=" md:px-96 bg-green-50">
           <!-- 2 tarjetas -->
           <hr />
-          <div class=" sm:flex-col p-3">
-            <div class="sm:w-full md:inline-block md:w-5/12 bg-green-300 text-center md:p-8 md:m-8 p-3 m-3 rounded-xl shadow-md">
+          <div class=" flex flex-wrap content-center p-3">
+            <div class="sm:w-full md:inline-block md:w-4/12 bg-green-300 text-center md:p-8 md:m-8 p-3 m-3 rounded-xl shadow-md">
               <h3 class="text-center">Mision</h3>
               <p class="text-justify">
                 Desarrollar competencias y apoyar el aprovechamiento de
@@ -21,7 +21,7 @@
                 trabajo conjunto con entidades públicas y privadas.
               </p>
             </div>
-            <div class="sm:w-full md:inline-block md:w-5/12 bg-green-300 text-center md:p-8 md:m-8 p-3 m-3 rounded-xl shadow-md">
+            <div class="sm:w-full md:inline-block md:w-4/12 bg-green-300 text-center md:p-8 md:m-8 p-3 m-3 rounded-xl shadow-md">
               <h3 class="text-center">Vision</h3>
               <p class="text-justify">
                 Ser una organización referente en el campo del desarrollo
@@ -92,7 +92,7 @@
             </div>
             <div>
               <h1 class="p-5 font-bold text-xl">
-                Directora de Proyectos: José Adolfo Hinojosa Pérez
+                Director de Proyectos: José Adolfo Hinojosa Pérez
               </h1>
               <p class="p-5">
                 Doctor en Economía por la Universidad de París VIII, París

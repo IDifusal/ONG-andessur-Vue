@@ -1,6 +1,6 @@
 <template>
-  <div class="px-8 md:m-8">
-    <H1 class="text-center font-bold text-4xl"> PROYECTOS POR DESARROLLAR</H1>
+  <div class="px-8 md:my-8 my-3">
+    <H1 class="text-center font-bold text-4xl "> PROYECTOS POR DESARROLLAR</H1>
     <!-- Primera seccion -->
     <div class="md:p-8 md:flex">
       <div
@@ -69,8 +69,8 @@
         </div>
       </div>
     </div>
-    <H1 class="text-center font-bold text-4xl bg-green-50 py-5"> PROYECTOS EN DESARROLLO</H1>
-    <div class="md:p-8 md:flex bg-green-50">
+    <H1 class="text-center font-bold text-4xl  py-5"> PROYECTOS EN DESARROLLO</H1>
+    <div class="md:p-8 md:flex ">
       <div
         class=" md:p-2 px-2 py-2 md:flex flex-row w-full shadow-md rounded-lg md:px-8 bg-white"
       >
@@ -86,11 +86,11 @@
             </div>
           </div>
         </div>
-        <div class="w-2/3 md:m-auto">
+        <div class="md:w-2/3 md:m-auto">
           <h3 class="m-4 text-center font-bold text-2xl">
             TABLETA PARA TU CARPETA
           </h3>
-          <p class="m-4 block">
+          <p class="m-4 block text-justify">
             La pandemia del COVID-19 ha generado un cambio en las actividades
             que el hombre desarrolla con normalidad como acudir a su centro de
             estudios. En nuestro país, muchos estudiantes han tenido que
@@ -131,10 +131,10 @@
           ></div>
         </div>
         <div class="">
-          <h3 class="m-4">
+          <h3 class="m-4 text-center">
             CONVENIO FUNDACIÓN PIECES - UNIVERSIDAD SAN GALLENT DE SUIZA
           </h3>
-          <p class="m-4">
+          <p class="m-4 text-justify">
             Se ha concretado la alianza con la Fundación Pieces - Universidad de
             San Galen de Suiza, para realizar un proyecto de cooperación en la
             enseñanza de inglés, que se realiza 2 veces al año de manera
@@ -155,10 +155,10 @@
           ></div>
         </div>
         <div class="">
-          <h3 class="m-4">
+          <h3 class="m-4 text-center">
             PLAN ESTRATEGICO DE MUNGUI CAPITAL DEL DISTRITO DE PAMPAMARCA
           </h3>
-          <p class="m-4">
+          <p class="m-4 text-justify">
             Entregado al presidente de la comunidad el Documento que incluye la
             vision, mision, los objetivo, las metas, las estrategias y
             actividades para el desarrollo de Mungui capital del distrito de
@@ -176,10 +176,10 @@
           ></div>
         </div>
         <div class="">
-          <h3 class="m-4">
+          <h3 class="m-4 text-center">
             PROYECTO PARA LA REMODELACIÓN DE LA PISCINA DEL PUEBLO DE MUNGUI
           </h3>
-          <p class="m-4">
+          <p class="m-4 text-justify">
             Se ha desarrollado el proyecto de arquitectura para la remodelación
             de la piscina de mungui, que estuvo abandonada 30 años para su
             puesta en valor con la participación de la Municipalidad Provincial
