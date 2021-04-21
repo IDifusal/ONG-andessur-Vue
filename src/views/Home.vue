@@ -174,11 +174,11 @@ export default {
       items: [
         {
           src:
-            "https://dc720.4shared.com/img/qFaCFeoGea/s23/1785c24d508/bg1.jpg"
+            "/img/bg1.jpg"
         },
         {
           src:
-            "https://dc706.4shared.com/img/q3AxDVSpiq/s23/1785c346180/bga2.jpg"
+            "/img/987634.jpg"
         },
         {
           src: "https://cdn.vuetifyjs.com/images/carousel/bird.jpg"

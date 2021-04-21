@@ -23,11 +23,7 @@
         to="/nosotros"
         >NOSOTROS</router-link
       >
-      <router-link
-        class="inline-block mr-3 font-bold hover:text-green-100"
-        to="/actividades"
-        >ACTIVIDADES</router-link
-      >
+
       <router-link
         class="inline-block mr-3 font-bold hover:text-green-100"
         to="/proyectos"
@@ -58,11 +54,6 @@
         class="block my-3 font-bold hover:text-green-100"
         to="/nosotros"
         >NOSOTROS</router-link
-      >
-      <router-link
-        class="block my-3 font-bold hover:text-green-100"
-        to="/actividades"
-        >ACTIVIDADES</router-link
       >
       <router-link
         class="block my-3 font-bold hover:text-green-100"

@@ -2,7 +2,7 @@
   <div class="container">
     <form class="contact-form" @submit.prevent="sendEmail">
       <label>Tu nombre completo</label>
-      <input type="text" v-model="name" name="name" />
+      <input type="text" v-model="name" name="name" placeholder="Tu nombre aquí"/>
       <label>Tu email</label>
       <input
         type="email"
@@ -14,7 +14,7 @@
       <input
         type="number"
         name="number"
-        placeholder="99999"
+        placeholder="444 444 444"
       />
       <label>Mensaje</label>
       <textarea
@@ -35,15 +35,19 @@
 * {
   box-sizing: border-box;
 }
-
-.container {
+.container{
+  padding: 2rem;
+}
+@media (min-width:600px) {
+  .container {
   display: block;
   margin: auto;
   text-align: center;
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
   width: 50%;
+}
+  
 }
 
 label {
@@ -65,7 +69,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #1fa185;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -74,7 +78,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #ba9774;
 }
 </style>
 <script>
