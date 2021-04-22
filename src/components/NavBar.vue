@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar height="150px" app class="white">
+  <v-app-bar height="90px" app class="white">
     <v-app-bar-nav-icon
       class="visible md:invisible"
       @click="drawer = !drawer"
@@ -7,8 +7,9 @@
     <router-link to="/"
       ><v-toolbar-title
         ><img
-          src="../assets/ong.png"
-          width="110px"
+          class="mainlogo"
+          src="../assets/ong2.png"
+          width="280px"
           alt="ong andes sur logo"/></v-toolbar-title
     ></router-link>
     <v-spacer></v-spacer>
@@ -100,4 +101,10 @@ export default {
 .v-toolbar__content {
   height: 100px;
 }
+@media (max-width:600px){
+.mainlogo{
+  max-width: auto;
+}
+}
+
 </style>

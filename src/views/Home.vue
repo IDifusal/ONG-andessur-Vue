@@ -89,11 +89,11 @@
           <!-- PROYECTOS -->
           <div class="md:flex justify-center py-8 md:py-12 fondo1">
 
-              <img src="https://dc583.4shared.com/img/HtVJLxOpiq/s23/178f68b0810/proyectos" alt="" width="35%" class="proyectos m-auto md:m-0"/>
+              <img src="https://dc583.4shared.com/img/HtVJLxOpiq/s23/178f68b0810/proyectos" alt="" class="proyectos m-auto md:m-0 "/>
 
             <div class="px-4 text-center text-xs-center md:pt-24">
               <h3 class="text-3xl">Comprometidos con el desarrollo del sur</h3> <br>
-            <h4 class="text-center my-2">Conoce más de nuestros proyectos</h4>
+            <h4 class="text-center my-2">La pandemia del COVID-19 ha generado un cambio en las actividades <br> que el hombre desarrolla con normalidad como acudir a su centro de estudios.<br> Conoce más de nuestros proyectos</h4>
              <v-btn
           to="/proyectos"
           class="text-white white–text brown lighten-5 my-2"
@@ -146,8 +146,18 @@
 </template>
 
 <style scoped>
+.proyectos img{
+  min-width: 90px;
+
+}
 .pegado{
   line-height: 65px;
+}
+@media (max-width:600px) {
+svg{
+  display: none;
+}
+path{display:none}
 }
 .fondo1{
 background-color: #ffffff;
@@ -226,6 +236,9 @@ hr {
   transform: rotate(-3deg);
   border-radius: 5px;
   filter: drop-shadow(0 0 0.75rem grey);
+}
+.mx-8.content-center.v-card.v-sheet.theme--light {
+    margin: 20px;
 }
 @media (max-width: 650px) {
   .v-window,
