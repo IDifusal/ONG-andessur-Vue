@@ -1,5 +1,5 @@
 <template>
-  <div class="px-8 md:my-8 my-3">
+  <div class="px-4 md:py-8 my-3">
     <H1 class="text-center font-bold text-4xl "> PROYECTOS POR DESARROLLAR</H1>
     <!-- Primera seccion -->
     <div class="md:p-8 md:flex">
@@ -13,10 +13,10 @@
           ></div>
         </div>
         <div class="">
-          <h3 class="m-4">
+          <h3 class="m-4 text-center">
             ADOPTA UN PUEBLO
           </h3>
-          <p class="m-4">
+          <p class="m-4 md:px-4 text-justify">
             Con la finalidad de generar desarrollo sostenible, buscamos
             encontrar socios que estén dispuestos a apoyar proyectos en los
             pueblos interandinos que permitan elevar la productividad, la
@@ -34,10 +34,10 @@
           ></div>
         </div>
         <div class="">
-          <h3 class="m-4">
+          <h3 class="m-4 text-center">
             PLOGGING "RECOGE, CORRE Y AYUDA AL MEDIO AMBIENTE"
           </h3>
-          <p class="m-4">
+          <p class="m-4 md:px-4 text-justify">
             Salir a correr ya no es sólo preparar las zapatillas y la ropa.
             Ahora también podremos llevar un par de guantes de látex, una bolsa
             de basura y muchas ganas de hacer ejercicio pero también de
@@ -48,19 +48,19 @@
         </div>
       </div>
       <div
-        class=" md:p-2 px-2 py-2 md:flex flex-row md:w-1/3 shadow-md rounded-lg md:px-8"
+        class=" md:p-2 px-2 py-2  md:flex flex-row md:w-1/3 shadow-md rounded-lg md:px-8"
       >
         <div>
           <div
-            class="w-20 h-20 bg-photo bg-contain bg-center m-auto md:mt-12 rounded-lg"
+            class="w-20 h-20 bg-photo bg-contain bg-center m-auto md:mt-12 rounded-lg md:my-auto"
             :style="{ 'background-image': 'url(/img/pendesarrollo3.jpg)' }"
           ></div>
         </div>
         <div class="">
-          <h3 class="m-4">
+          <h3 class="m-4 text-center">
             MARKETING DE GUERRILLA
           </h3>
-          <p class="m-4">
+          <p class="m-4 md:px-4 text-justify">
             Herramienta de gran valor que utilizaremos para potencializar la
             comunicación entre el Estado, la empresa, la academia y la sociedad
             civil con la finalidad de generar cambios sociales y generar
@@ -69,7 +69,9 @@
         </div>
       </div>
     </div>
-    <H1 class="text-center font-bold text-4xl  py-5"> PROYECTOS EN DESARROLLO</H1>
+    <H1 class="text-center font-bold text-4xl  py-5">
+      PROYECTOS EN DESARROLLO</H1
+    >
     <div class="md:p-8 md:flex ">
       <div
         class=" md:p-2 px-2 py-2 md:flex flex-row w-full shadow-md rounded-lg md:px-8 bg-white"
@@ -118,7 +120,9 @@
         </div>
       </div>
     </div>
-    <H1 class="text-center font-bold text-4xl py-5"> PROYECTOS POR DESARROLLAR</H1>
+    <H1 class="text-center font-bold text-4xl py-5">
+      PROYECTOS POR DESARROLLAR</H1
+    >
     <!-- Tercera seccion-->
     <div class="md:p-8 md:flex">
       <div
@@ -199,7 +203,7 @@ export default {
 };
 </script>
 <style scoped>
-button{
+button {
   background-color: #ba9774;
 }
 h1 {

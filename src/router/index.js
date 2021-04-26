@@ -51,6 +51,9 @@ const router = new Router({
       name: "Contacto",
       component: Contacto
     }
-  ]
+  ],
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  }
 });
-export default router
+export default router;

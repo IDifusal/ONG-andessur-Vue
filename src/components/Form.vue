@@ -2,7 +2,12 @@
   <div class="container">
     <form class="contact-form" @submit.prevent="sendEmail">
       <label>Tu nombre completo</label>
-      <input type="text" v-model="name" name="name" placeholder="Tu nombre aquí"/>
+      <input
+        type="text"
+        v-model="name"
+        name="name"
+        placeholder="Tu nombre aquí"
+      />
       <label>Tu email</label>
       <input
         type="email"
@@ -10,12 +15,8 @@
         name="email"
         placeholder="@tuemail.com"
       />
-    <label>Número de contacto</label>
-      <input
-        type="number"
-        name="number"
-        placeholder="444 444 444"
-      />
+      <label>Número de contacto</label>
+      <input type="number" name="number" placeholder="444 444 444" />
       <label>Mensaje</label>
       <textarea
         name="message"
@@ -35,19 +36,18 @@
 * {
   box-sizing: border-box;
 }
-.container{
+.container {
   padding: 2rem;
 }
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .container {
-  display: block;
-  margin: auto;
-  text-align: center;
-  border-radius: 5px;
-  padding: 20px;
-  width: 50%;
-}
-  
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+  }
 }
 
 label {
@@ -91,7 +91,7 @@ export default {
       name: "",
       email: "",
       message: "",
-      number:""
+      number: ""
     };
   },
   methods: {
