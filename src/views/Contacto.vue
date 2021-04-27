@@ -2,7 +2,7 @@
   <div class="contact">
     <h1 class="text-center text-4xl py-8">CONTACTANOS</h1>
     <div class="md:flex ">
-      <div class="w-1/2 md:margin-auto ">
+      <div class="w-1/2 mx-auto ">
         <img
           src="https://media1.tenor.com/images/0b46edf37db3fd5d9ce71c9763bef6af/tenor.gif?itemid=12348454"
           class="mx-auto"
@@ -10,7 +10,7 @@
         />
       </div>
 
-      <div class="w-1/2 md:mx-auto">
+      <div class="md:w-1/2 mx-auto">
         <contact-form />
       </div>
     </div>
@@ -49,10 +49,13 @@ iframe {
 .contact {
   background-color: #fcfdfc;
 }
-svg {
-  margin-top: -200px;
-}
+
 input[type="text"] {
   border: 1px solid white !important;
+}
+@media (min-width:600px) {
+  svg {
+  margin-top: -200px;
+}
 }
 </style>

@@ -9,37 +9,37 @@
           <img
             src="/img/logo-white.png"
             alt="Logo ong andes sur blanco transparente"
-            class=" scale-10 md:scale-50"
+            class=" scale-10 md:scale-50 mx-auto md:mx-0"
             width="120"
         /></a>
       </div>
 
-      <div class="md:w-1/4 inline-block align-top ">
+      <div class="md:w-1/4 inline-block align-top my-2">
         <li class="list-none">
-          <router-link class="block mr-3 hover:text-green-100" to="/"
+          <router-link class="block mr-3 hover:text-green-100 text-center" to="/"
             >INICIO</router-link
           >
-          <router-link class="block mr-3 hover:text-green-100" to="/nosotros"
+          <router-link class="block mr-3 hover:text-green-100 text-center" to="/nosotros"
             >NOSOTROS</router-link
           >
           <router-link
-            class="block mr-3  hover:text-green-100"
+            class="block mr-3  hover:text-green-100 text-center"
             to="/actividades"
             >ACTIVIDADES</router-link
           >
-          <router-link class="block mr-3 hover:text-green-100" to="/proyectos"
+          <router-link class="block mr-3 hover:text-green-100 text-center" to="/proyectos"
             >PROYECTOS</router-link
           >
-          <router-link class="block mr-3 hover:text-green-100" to="/servicios"
+          <router-link class="block mr-3 hover:text-green-100 text-center" to="/servicios"
             >SERVICIOS</router-link
           >
-          <router-link class="block mr-3  hover:text-green-100" to="/eventos"
+          <router-link class="block mr-3  hover:text-green-100 text-center" to="/eventos"
             >EVENTOS</router-link
           >
-          <router-link class="block mr-3 hover:text-green-100" to="/contacto"
+          <router-link class="block mr-3 hover:text-green-100 text-center" to="/contacto"
             >CONTACTO</router-link
           >
-          <router-link class="block mr-3 hover:text-green-100" to="/contacto"
+          <router-link class="block mr-3 hover:text-green-100 text-center" to="/contacto"
             >INTRANET</router-link
           >
         </li>

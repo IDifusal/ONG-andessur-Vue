@@ -97,7 +97,7 @@
             <div
               class="px-4 text-center text-xs-center flex flex-wrap content-center justify-center"
             >
-              <h3 class="text-3xl">Comprometidos con el desarrollo del sur</h3>
+              <h3 class="text-3xl my-4">Comprometidos con el desarrollo del sur</h3>
               <br />
               <h4 class="text-center my-2">
                 La pandemia del COVID-19 ha generado un cambio en las
@@ -124,7 +124,7 @@
             </h1>
           </div>
           <!-- sercicio tesis -->
-          <div class="md:flex justify-center fondo2 md:pt-24">
+          <div class="md:flex justify-center fondo2 md:pt-24 my-12">
             <div>
               <h2
                 class="script px-4 text-center md:text-right text-xs-center pegado"
