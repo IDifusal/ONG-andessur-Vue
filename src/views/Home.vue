@@ -146,7 +146,7 @@
             </div>
             <div>
               <img
-                src="https://info.learnchile.cl/landing/infografia/img/Chica2.png"
+                src="https://dc620.4shared.com/img/RThWuV5kiq/s23/1791a5a9e68/Chica2.png"
                 alt=""
                 width="60%"
                 class="img-mirror  m-auto md:m-0"
@@ -177,7 +177,7 @@
       rgba(54, 149, 235, 1) 0%,
       rgba(255, 255, 255, 0) 93%
     ),
-    url(https://variety.com/wp-content/uploads/2013/04/intnational_map.jpg);
+    url(https://dc620.4shared.com/img/LdpljDaOiq/s23/1791a5aa250/intnational_map.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
