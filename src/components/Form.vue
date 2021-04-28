@@ -114,7 +114,7 @@ export default {
               imageHeight: 200,
               imageAlt: "ONG Andres Sur"
             }).then(function() {
-              window.location = "https://www.netlify.com/";
+              window.location = "www.ongandessur.com";
             });
           },
           error => {
