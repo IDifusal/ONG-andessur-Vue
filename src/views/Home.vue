@@ -67,37 +67,52 @@
                   </p>
                   <h3 class="mx-2 text-center text-white">ANDES SUR</h3>
                   <v-card-text :aspect-ratio="16 / 9">
-                    <v-expand-transition>
-                      <div
-                        v-if="hover"
-                        class="d-flex transition-fast-in-fast-out  brown lighten-5 darken-2 v-card--reveal display-3 white--text"
-                        style="height: 100%;"
-                      >
-                        <p class="text-base text-center p-2">
-                          {{ card.content }}
-                        </p>
-                      </div>
-                      <hr />
-                    </v-expand-transition>
+                    <div
+                      v-if="hover"
+                      class="
+                        d-flex
+                        transition-fast-in-fast-out
+                        brown
+                        lighten-5
+                        darken-2
+                        v-card--reveal
+                        display-3
+                        white--text
+                      "
+                      style="height: 100%"
+                    >
+                      <p class="text-base text-center p-2">
+                        {{ card.content }}
+                      </p>
+                    </div>
+                    <hr />
                   </v-card-text>
-                  <v-card-text class="pt-6" style="position: relative;">
+                  <v-card-text class="pt-6" style="position: relative">
                   </v-card-text>
                 </v-card>
               </v-hover>
             </v-card>
           </div>
           <!-- PROYECTOS -->
-          <div class="md:flex justify-center py-12 md:py-12 fondo1 ">
+          <div class="md:flex justify-center py-12 md:py-12 fondo1">
             <img
               src="https://dc583.4shared.com/img/HtVJLxOpiq/s23/178f68b0810/proyectos"
               alt=""
-              class="proyectos m-auto md:m-0 "
+              class="proyectos m-auto md:m-0"
             />
 
             <div
-              class="px-4 text-center text-xs-center flex flex-wrap content-center justify-center"
+              class="
+                px-4
+                text-center text-xs-center
+                flex flex-wrap
+                content-center
+                justify-center
+              "
             >
-              <h3 class="text-3xl my-4">Comprometidos con el desarrollo del sur</h3>
+              <h3 class="text-3xl my-4">
+                Comprometidos con el desarrollo del sur
+              </h3>
               <br />
               <h4 class="text-center my-2">
                 La pandemia del COVID-19 ha generado un cambio en las
@@ -117,6 +132,195 @@
               >
             </div>
           </div>
+          <!-- servicios -->
+          <div class="md:px-16">
+            <h1 class="text-center text-4xl p-8">SERVICIOS</h1>
+
+            <div class="md:flex justify-center">
+              <v-card class="card-new" max-width="344">
+                <v-img
+                  src="https://static.wixstatic.com/media/15a549_cc6d3c98b2e0477cac5084a3771a060b~mv2.jpg/v1/fill/w_443,h_376,al_c,q_80,usm_0.66_1.00_0.01/15a549_cc6d3c98b2e0477cac5084a3771a060b~mv2.webp"
+                  height="200px"
+                ></v-img>
+
+                <v-card-title> Asesoría de Tesis </v-card-title>
+
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                </v-card-actions>
+
+                <div class="in-text" v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text-2>
+                    Por lo cual se ofrece el servicio de asesoría en: Plan de
+                    Tesis Informe final de la investigación Asesorías de tesis
+                    por etapas: Recolección de información Planteamiento del
+                    problema Marco teorico Hipótesis Metodologia Analisis de
+                    Resultados Conclusiones y recomendaciones Anexos
+                  </v-card-text-2>
+                  <v-btn
+                    rounded
+                    color="#ba9774"
+                    dark
+                    x-large
+                    to="/contacto"
+                    class="my-4"
+                  >
+                    Más información
+                  </v-btn>
+                </div>
+              </v-card>
+
+              <v-card class="card-new" max-width="344">
+                <v-img
+                  src="http://www.preydfis.com.mx/wp-content/uploads/2018/08/gestion-empresarial.jpg"
+                  height="200px"
+                ></v-img>
+
+                <v-card-title> Asesoria en Gestión Empresarial </v-card-title>
+
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                </v-card-actions>
+
+                <v-expand-transition>
+                  <div class="in-text" v-show="show">
+                    <v-divider></v-divider>
+
+                    <v-card-text-2>
+                      Ong Andessur, realiza asesorías en Gestión empresarial
+                      para MIPYMES, en sus diferentes áreas empresariales:•
+                      Gestión Administrativa • Recurso Humanos • Gestión
+                      Financiera • Logística • Marketing y redes sociales•
+                      Desarrollo y proceso de producto/servicio Área Legal
+                    </v-card-text-2>
+                    <v-btn
+                      rounded
+                      color="#ba9774"
+                      dark
+                      x-large
+                      to="/contacto"
+                      class="my-4"
+                    >
+                      Más información
+                    </v-btn>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+              <v-card class="card-new" max-width="344">
+                <v-img
+                  src="https://eiposgrado.edu.pe/wp-content/uploads/2019/07/BLOG-PORTADA.png"
+                  height="200px"
+                ></v-img>
+
+                <v-card-title> Asesoría en Gestión Pública </v-card-title>
+
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                </v-card-actions>
+                <div class="in-text" v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text-2>
+                    Dada la experiencia precedida de la ONG Andessur, realiza
+                    consultoría y asesoramiento para desarrollar y llevar a cabo
+                    proyectos para el sector público (Municipalidades locales y
+                    distritales)
+                  </v-card-text-2>
+                  <v-btn
+                    rounded
+                    color="#ba9774"
+                    dark
+                    x-large
+                    to="/contacto"
+                    class="my-4"
+                  >
+                    Más información
+                  </v-btn>
+                </div>
+              </v-card>
+            </div>
+          </div>
+          <div class="banner-2 text-center">
+            <img
+              src="https://dc613.4shared.com/img/OQbb5Ruriq/s24/17a5ae019d0/banner-2-ong-andes-sur?async&rand=0.4592375194773455.jpg"
+              alt=""
+              class="mx-auto"
+            />
+          </div>
+          <!-- PRODUCTOS -->
+          <div class="md:px-16">
+            <h1 class="text-center text-4xl p-8">Productos</h1>
+
+            <div class="md:flex justify-center">
+              <v-card class="card-new" max-width="344">
+                <v-img
+                  src="https://static.wixstatic.com/media/15a549_b842127436184532a6bc8e3334d913fe~mv2.png/v1/fill/w_580,h_420,al_c,q_90,usm_0.66_1.00_0.01/15a549_b842127436184532a6bc8e3334d913fe~mv2.webp"
+                  height="200px"
+                ></v-img>
+
+                <v-card-title> EL Arte de hacer una Tesis </v-card-title>
+
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                </v-card-actions>
+
+                <div class="in-text" v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text-2>
+                    Libro en edicion digital descargable al adquirir nuestro
+                    producto.
+                  </v-card-text-2>
+                </div>
+              </v-card>
+
+              <v-card class="card-new" max-width="344">
+                <v-img
+                  src="https://static.wixstatic.com/media/15a549_b842127436184532a6bc8e3334d913fe~mv2.png/v1/fill/w_580,h_420,al_c,q_90,usm_0.66_1.00_0.01/15a549_b842127436184532a6bc8e3334d913fe~mv2.webp"
+                  height="200px"
+                ></v-img>
+
+                <v-card-title> EL Arte de hacer una Tesis </v-card-title>
+
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                </v-card-actions>
+
+                <v-expand-transition>
+                  <div class="in-text" v-show="show">
+                    <v-divider></v-divider>
+
+                    <v-card-text-2>
+                      Libro en edicion digital descargable al adquirir nuestro
+                      producto.
+                    </v-card-text-2>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+              <v-card class="card-new" max-width="344">
+                <v-img
+                  src="https://static.wixstatic.com/media/15a549_b842127436184532a6bc8e3334d913fe~mv2.png/v1/fill/w_580,h_420,al_c,q_90,usm_0.66_1.00_0.01/15a549_b842127436184532a6bc8e3334d913fe~mv2.webp"
+                  height="200px"
+                ></v-img>
+
+                <v-card-title> Asesoría en Gestión Pública </v-card-title>
+
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                </v-card-actions>
+                <div class="in-text" v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text-2>
+                    Libro en edicion digital descargable al adquirir nuestro
+                    producto.
+                  </v-card-text-2>
+                </div>
+              </v-card>
+            </div>
+          </div>
           <!-- PRONTO ARTICULOS -->
           <div class="h-72 pronto flex items-center justify-center">
             <h1 class="text-center text-4xl">
@@ -127,7 +331,14 @@
           <div class="md:flex justify-center fondo2 md:pt-24 my-12">
             <div>
               <h2
-                class="script px-4 text-center md:text-right text-xs-center pegado"
+                class="
+                  script
+                  px-4
+                  text-center
+                  md:text-right
+                  text-xs-center
+                  pegado
+                "
               >
                 🤓 Necesitas ayuda con tu tesis?
               </h2>
@@ -149,7 +360,7 @@
                 src="https://dc620.4shared.com/img/RThWuV5kiq/s23/1791a5a9e68/Chica2.png"
                 alt=""
                 width="60%"
-                class="img-mirror  m-auto md:m-0"
+                class="img-mirror m-auto md:m-0"
               />
             </div>
           </div>
@@ -221,7 +432,8 @@
   font-family: "Nanum Pen Script", cursive;
   font-size: 4.5rem;
 }
-.fondo2 {
+.in-text {
+  padding: 10px !important;
 }
 svg {
   margin-top: -90px !important;
@@ -265,6 +477,7 @@ span.v-btn__content {
 .v-application .grey.lighten-4 {
   background-color: #f5f5f5 !important;
 }
+
 hr {
   height: 1.5px;
   border-width: 0;
@@ -306,6 +519,14 @@ hr {
   .v-image v-responsive v-carousel__item theme--dark {
     height: 150px !important;
   }
+  .card-new.v-card.v-sheet.theme--light {
+    margin: auto;
+  }
+}
+@media (min-width: 600px) {
+  .card-new.v-card.v-sheet.theme--light {
+    margin: 10px;
+  }
 }
 </style>
 
@@ -316,38 +537,37 @@ export default {
     return {
       items: [
         {
-          src: "/img/bg1.jpg"
+          src: "/img/bg1.jpg",
         },
         {
-          src: "/img/987634.jpg"
+          src: "/img/987634.jpg",
         },
         {
-          src:
-            "https://wallpapers.wongcw.com/king-include/uploads/2019/05/d-5572199520.jpg"
+          src: "https://wallpapers.wongcw.com/king-include/uploads/2019/05/d-5572199520.jpg",
         },
         {
-          src:
-            "https://i.pinimg.com/originals/76/d1/6d/76d16d967a1bd6577817d39648f8162c.jpg"
-        }
+          src: "https://i.pinimg.com/originals/76/d1/6d/76d16d967a1bd6577817d39648f8162c.jpg",
+        },
       ],
       cards: [
         {
           title: "PROYECTOS",
           content:
-            "Nuestros ejes de desarrollo son tres: investigación y desarrollo, gestión empresarial y publica para el desarrollo sostenible y extensión en el ámbito socio-cultural."
+            "Nuestros ejes de desarrollo son tres: investigación y desarrollo, gestión empresarial y publica para el desarrollo sostenible y extensión en el ámbito socio-cultural.",
         },
         {
           title: "CLIENTES",
           content:
-            "Nuestros servicios van dirigidos tanto a la pequeña y mediana empresa, como tambien a aquellas personas que desean realizar investigacion, ya sea para obtener un grado academico o bien para publicar en revistas cientificas."
+            "Nuestros servicios van dirigidos tanto a la pequeña y mediana empresa, como tambien a aquellas personas que desean realizar investigacion, ya sea para obtener un grado academico o bien para publicar en revistas cientificas.",
         },
         {
           title: "SERVICIOS",
           content:
-            "Asesoria de tesis Ciencias Sociales  Asesoria en Gestion Empresarial    Consultoria en proyectos de sector público"
-        }
-      ]
+            "Asesoria de tesis Ciencias Sociales  Asesoria en Gestion Empresarial    Consultoria en proyectos de sector público",
+        },
+      ],
+      show: true,
     };
-  }
+  },
 };
 </script>
