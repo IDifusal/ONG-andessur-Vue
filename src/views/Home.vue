@@ -2,7 +2,7 @@
   <div>
     <v-carousel
       cycle
-      :height="$vuetify.breakpoint.xs ? 150 : '700px'"
+      :height="$vuetify.breakpoint.xs ? 150 : '500px'"
       hide-delimiter-background
     >
       <v-carousel-item
@@ -328,7 +328,7 @@
             </h1>
           </div>
           <!-- sercicio tesis -->
-          <div class="md:flex justify-center fondo2 md:pt-24 my-12">
+          <div class="md:flex justify-center fondo2 md:pt-24 mt-12">
             <div>
               <h2
                 class="
@@ -363,14 +363,6 @@
                 class="img-mirror m-auto md:m-0"
               />
             </div>
-          </div>
-
-          <!-- WEBNARS AND SERVICES!-->
-          <div class="flex justify-center mt-8">
-            <img
-              src="https://dc549.4shared.com/img/YftR9OuLea/s23/1790c75cb88/banner2.jpg"
-              alt=""
-            />
           </div>
         </template>
       </div>
@@ -537,37 +529,40 @@ export default {
     return {
       items: [
         {
-          src: "/img/bg1.jpg",
+          src: "/img/bg-1.png"
         },
         {
-          src: "/img/987634.jpg",
+          src: "/img/bg-2.png"
         },
         {
-          src: "https://wallpapers.wongcw.com/king-include/uploads/2019/05/d-5572199520.jpg",
+          src: "/img/bg-3.png"
         },
         {
-          src: "https://i.pinimg.com/originals/76/d1/6d/76d16d967a1bd6577817d39648f8162c.jpg",
+          src: "/img/bg1.jpg"
         },
+        {
+          src: "/img/987634.jpg"
+        }
       ],
       cards: [
         {
           title: "PROYECTOS",
           content:
-            "Nuestros ejes de desarrollo son tres: investigación y desarrollo, gestión empresarial y publica para el desarrollo sostenible y extensión en el ámbito socio-cultural.",
+            "Nuestros ejes de desarrollo son tres: investigación y desarrollo, gestión empresarial y publica para el desarrollo sostenible y extensión en el ámbito socio-cultural."
         },
         {
           title: "CLIENTES",
           content:
-            "Nuestros servicios van dirigidos tanto a la pequeña y mediana empresa, como tambien a aquellas personas que desean realizar investigacion, ya sea para obtener un grado academico o bien para publicar en revistas cientificas.",
+            "Nuestros servicios van dirigidos tanto a la pequeña y mediana empresa, como tambien a aquellas personas que desean realizar investigacion, ya sea para obtener un grado academico o bien para publicar en revistas cientificas."
         },
         {
           title: "SERVICIOS",
           content:
-            "Asesoria de tesis Ciencias Sociales  Asesoria en Gestion Empresarial    Consultoria en proyectos de sector público",
-        },
+            "Asesoria de tesis Ciencias Sociales  Asesoria en Gestion Empresarial    Consultoria en proyectos de sector público"
+        }
       ],
-      show: true,
+      show: true
     };
-  },
+  }
 };
 </script>
